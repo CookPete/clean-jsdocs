@@ -1,0 +1,146 @@
+pre {
+	display: block;
+	padding: 5px;
+	background: #eee;
+	color: #666;
+	border-radius: 5px;
+	overflow: auto;
+	tab-size: 2;
+	white-space: no-wrap !important;
+}
+
+#index {
+	float: left;
+	width: 220px;
+	margin-right: 30px;
+	padding: 30px;
+	background: #f6f6f6;
+	border-radius: 0 0 10px;
+}
+
+#content {
+	margin: 0 20px 0 250px;
+	padding-top: 10px
+}
+
+.classList {
+	list-style-type: none;
+	padding: 0;
+}
+
+.fineprint {
+	text-align: right;
+	font-size: 10px;
+}
+
+a:target + div {
+	background: #DDF3FC;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.fixedFont {
+	font-family: Consolas, 'Courier New', monospace;
+	color: #1C4EB3;
+}
+
+.light, td.attributes, .light a:link, .light a:visited, i {
+	color: #ccc;
+	font-style: italic;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Helvetica Neue', HelveticaNeue, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 20px;
+}
+body, h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
+}
+
+
+a {
+	color: #36c;
+}
+blockquote {
+	font-style: italic;
+	border-left: 5px solid #ddd;
+	padding-left: 20px;
+	margin-left: 20px;
+}
+ul {
+	list-style-type: square;
+}
+li {
+	margin-top: 5px;
+}
+code {
+	display: inline-block;
+	background: #eee;
+	padding: 2px 5px;
+	border-radius: 3px;
+}
+hr {
+	border: 0;
+	border-bottom: 1px solid #eee;
+	margin: 20px 0;
+}
+
+
+
+/* Headings */
+h1 { font-size: 2em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1.1em; }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 20px 0 10px;
+}
+
+
+
+/* Tables */
+table {
+	border-collapse: collapse;
+	margin-bottom: 1em;
+}
+tr {
+	border-bottom: 1px solid #ddd;
+}
+td, th {
+	padding: 5px 20px 5px 0;
+	text-align: left;
+}
+tbody tr:last-child {
+	border-bottom: 0;
+}
+td:last-child {
+	padding-right: 0;
+}
+table caption,
+.sectionTitle {
+	text-align: left;
+	font-size: 1.4em;
+	padding: 10px 0;
+}
+.sectionTitle {
+	margin-top: 2em;
+}
+
+
+
+/* Small fonts for some elements */
+ul, td, th, figcaption, code {
+	font-size: 0.94em;
+}
+ul ul {
+	font-size: inherit; /* Don't let nested lists get too small */
+}
